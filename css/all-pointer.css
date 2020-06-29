@@ -1,0 +1,54 @@
+/* reset css */
+* , h1, h3, h6, ul{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+}
+
+input, a, button {
+	outline: none!important;
+}
+
+input:focus, input:hover {
+	outline: none!important;
+}
+
+/* điểm chung */
+
+body {
+	color: #000;
+}
+
+h3, h6 {
+	color: inherit;
+	font-family: inherit;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+.black-bg {
+	background-color: #000;
+}
+
+.white-color {
+	color: #fff;
+}
+
+.max100 {
+	max-width: 100%;
+}
+
